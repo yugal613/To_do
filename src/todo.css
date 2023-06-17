@@ -1,0 +1,106 @@
+.main_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #6782AA;
+    display: flex;
+    justify-content: center;
+}
+
+.center_div {
+    box-shadow: 5px 10px 10px black;
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    height: 5vh;
+    background-color: #876CA7
+}
+
+.inputbox {
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 50%;
+    height: 5vh;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.inputbox:focus {
+    outline: none;
+}
+
+.button {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #8965d0;
+    border-radius: 50%;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+.button:hover {
+    background-color: #499e49;
+}
+
+.orderedlist {
+    padding: 5px;
+    font-weight: 500;
+    list-style: none;
+    font-size: 20px;
+    color: #6782AA;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.listcontent {
+    margin: 5px;
+    color: white;
+    background-color: #779acb;
+    width: auto;
+    height: 4vh;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttoncss {
+    border-radius: 6px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    width: 60px;
+    height: 2.5vh;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#edit:hover {
+    background-color: rgb(28, 189, 198);
+}
+
+#delete:hover {
+    color: white;
+    background-color: rgb(252, 75, 75);
+}
+
+.itemval {
+    margin-left: 10px;
+}
